@@ -39,6 +39,10 @@
 
 #define FAN0_PIN                            PC6
 
+#define SERVO0_PIN PB8
+#define SERVO1_PIN PB9
+#define SERVO2_PIN PB15
+
 //
 // USB connect control
 //
@@ -76,6 +80,8 @@
 #ifndef CONTROLLER_FAN_PIN
   #define CONTROLLER_FAN_PIN            FAN1_PIN
 #endif
+
+
 
 #if HAS_TMC_UART
   /**

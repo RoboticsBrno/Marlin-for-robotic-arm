@@ -41,7 +41,7 @@
 //
 // Servos
 //
-#define SERVO0_PIN                          PA1   // SERVOS
+// #define SERVO0_PIN                          PA1   // SERVOS
 
 //
 // Limit Switches
@@ -132,8 +132,8 @@
 #define EXP1_03_PIN                         PA9
 #define EXP1_04_PIN                         -1    // RESET
 #define EXP1_05_PIN                         PA10
-#define EXP1_06_PIN                         PB9
-#define EXP1_07_PIN                         PB8
+#define EXP1_06_PIN                         PB6
+#define EXP1_07_PIN                         PB6
 
 #if HAS_DWIN_E3V2 || IS_DWIN_MARLINUI
   /**
