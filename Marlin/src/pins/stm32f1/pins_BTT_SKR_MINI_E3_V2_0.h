@@ -60,7 +60,7 @@
  *                  EXP1
  */
 #define EXP1_02_PIN                         PA15
-#define EXP1_08_PIN                         PB15
+#define EXP1_08_PIN                         PA15
 
 #include "pins_BTT_SKR_MINI_E3_common.h"
 
